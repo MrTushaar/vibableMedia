@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="85" viewBox="0 0 280 85">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 37.5px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Cormorant Garamond";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image id="Transparent_1_-_Copy" data-name="Transparent 1 - Copy" width="109" height="85" xlink:href="data:img/png;base64,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"/>
+  <text id="VIBABLE" class="cls-1" x="207" y="45"><tspan x="207">VIBABLE</tspan></text>
+  <text id="MEDIA" class="cls-1" x="195" y="83"><tspan x="195">MEDIA</tspan></text>
+</svg>

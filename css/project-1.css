@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden !important
+}
+
+.navbar {
+    background: #fff;
+    padding: 10px 100px
+}
+
+a.navbar-brand {
+    color: #0071bc
+}
+
+#navbar-toggler {
+    color: #101010
+}
+
+ul.navbar-nav li a.nav-link {
+    color: #101010
+}
+
+@media screen and (max-width:992px) {
+    .navbar {
+        padding-left: 50px;
+        padding-right: 50px
+    }
+}
+
+@media screen and (max-width:520px) {
+    .navbar {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+.landing {
+    height: 60vh;
+    background: #0071bc url('../img/service-1.png') no-repeat center center;
+    background: url('../img/webp/service-1.webp') no-repeat center center;
+    background-size: cover
+}
+.landing::after {
+    background: rgba(0, 113, 188, 0.9);
+}
+
+.slogan {
+    text-align: left;
+    position: relative !important;
+    width: 100%;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #101010
+}
+
+.project-details .line-under-title.no-ani {
+    width: 50px;
+    margin-left: 0
+}
+
+ul.project-accomplishment {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+ul.project-accomplishment li i {
+    color: #0071bc;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.project-accomplishment li:hover i {
+    -webkit-transform: scale(1.30);
+            transform: scale(1.30);
+}   
+
+.nav-to-fro a.btn,
+.nav-to-fro span.btn {
+    cursor: pointer
+}

@@ -1,0 +1,29 @@
+
+.landing {
+    height: 60vh;
+}
+
+.feature-listing {
+    list-style: none;
+    padding: 0;
+    /* width: 80%;
+    margin: 0 10%; */
+    text-align: center;
+}
+.feature-listing li {
+    background: #ffffff;
+    margin: 5px;
+    padding: 5px 30px;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.feature-listing li:hover {
+    border: 2px solid #0071bc;
+}
+
+.project-image {
+    width: 70%;
+}
